@@ -14,7 +14,7 @@ Register your `eID` script as usual in `ext_localconf.php`.
 
     $GLOBALS['TYPO3_CONF_VARS']['FE']['eID_include']['EID_KEY'] = \Vendor\Extension\Controller\EidController::class.'::processRequest';
 
-Now, you can have 2 entries.
+Now, you have two entries.
 
     index.php?eID=EID_KEY (The original entry)
     index.php?eID2=EID_KEY (The new entry)
